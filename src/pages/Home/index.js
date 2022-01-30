@@ -33,7 +33,7 @@ function Home() {
                                 <p className='card-text'>{item.sinopse}</p>
                                 <div className='container-btn'>
                                     <Link className="btn btn-primary" to={`/filme/${item.id}`}>Acessar</Link>
-                                    <Link className="btn btn-success" to="/" >Salvar</Link>
+                                    {/* <Link className="btn btn-success" to="/" >Salvar</Link> */}
                                 </div>
                             </div>
                         </div>
