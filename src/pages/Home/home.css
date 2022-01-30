@@ -1,4 +1,19 @@
+.container-card {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
 .card {
     margin-bottom: 20px !important;
-    width        : 60%
+    width        : 80%;
+
+}
+
+.container-btn {
+    display        : flex;
+    flex-direction : row;
+    align-items    : flex-end;
+    justify-content: space-between;
 }
